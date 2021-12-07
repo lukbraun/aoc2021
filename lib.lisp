@@ -1,0 +1,8 @@
+(defun median (l)
+  (flet ((sort-int-list (ll) (sort ll (lambda (x y) (<= x y)))))
+    (let* ((len (length l))
+           (middle (1- (/ len 2)))
+           (sorted-list (sort-int-list l)))
+      (if (oddp len)
+          (nth (ceiling middle) sorted-list)
+          (/ (+ (nth middle sorted-list) (nth (1+ middle) sorted-list)) 2)))))
