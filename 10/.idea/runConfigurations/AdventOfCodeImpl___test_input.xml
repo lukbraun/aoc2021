@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AdventOfCodeImpl - test_input" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.example.AdventOfCodeImpl" />
+    <module name="10" />
+    <option name="PROGRAM_PARAMETERS" value="input_test" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.example.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
